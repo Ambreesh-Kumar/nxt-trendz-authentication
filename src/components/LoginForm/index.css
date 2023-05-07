@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+.login-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30vh;
+}
+.form-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.login-image {
+  height: 40vh;
+  margin-right: 150px;
+}
+.trendz-logo {
+  height: 50px;
+  margin-bottom: 25px;
+}
+.login-button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.invalid-login {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #ff0b37;
+  margin-top: 8px;
+}
+.user-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.username-password-label {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #475569;
+  margin-bottom: 5px;
+}
+.username-password-input-element {
+  width: 250px;
+  height: 35px;
+  padding-left: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border-width: 0px;
+  background-color: #d8dde7ed;
+}

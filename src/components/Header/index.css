@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.trendz-logo-header {
+  height: 10vh;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.header-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #64748b;
+  margin-right: 15px;
+}
+.logout-button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+}

@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.home-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: fle;
+  margin-right: 100px;
+}
+.home-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+}
+.shop-now-button {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+}
+.shop-now-image {
+  height: 58vh;
+  margin-left: 150px;
+}
